@@ -1,9 +1,9 @@
-#React-demo-myMemo
+# React-demo-myMemo
 ps: 原示例地址：https://github.com/damonare/memos
 
 一个使用react + react-router + redux的示例
 
-##主要使用的技术：
+## 主要使用的技术：
 * create-react-app脚手架
 * react
 * react-router@4.2.0
@@ -16,7 +16,7 @@ ps: 原示例地址：https://github.com/damonare/memos
 
 
 
-##memo有哪些功能？
+## memo有哪些功能？
 
 * 添加事项
 * 修改事项
@@ -24,7 +24,7 @@ ps: 原示例地址：https://github.com/damonare/memos
 * 搜索事项（模糊搜索待更新）
 * 本地存储事项
 
-##有问题反馈
+## 有问题反馈
 有任何问题，欢迎反馈给我，可以用以下联系方式或者提交issues
 
 * 邮件: 526800921@qq.com
