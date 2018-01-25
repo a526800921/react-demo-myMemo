@@ -3,9 +3,9 @@ ps: 原示例地址：https://github.com/damonare/memos
 
 一个使用react + react-router + redux的示例
 
-> npm install
-> npm start
-> npm run build
+> npm install     
+> npm start    
+> npm run build   
 
 ## 主要使用的技术：
 * create-react-app脚手架
