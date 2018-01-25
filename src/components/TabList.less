@@ -1,0 +1,26 @@
+.TabList {
+   display: flex;
+   align-items: center;
+   height: 40px;
+   text-align: center;
+   background-color: #fff;
+   margin-bottom: 20px;
+   .tab {
+      flex: 1;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #fff;
+      cursor: pointer;
+      user-select: none;
+      transition: .3s;
+      &:hover {
+         text-decoration: none;
+      }
+   }
+   .acitve_tab {
+      color: #409eff;
+      border-bottom-color: #409eff;
+   }
+}

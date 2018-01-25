@@ -1,0 +1,84 @@
+.todo_box {
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   .todo_title {
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+      border-radius: 4px;
+      background-color: #409eff;
+      color: #fff;
+      padding: 0 20px;
+      cursor: pointer;
+      transition: .3s;
+      user-select: none;
+      &:hover {
+         background-color: #3a8ee6;
+      }
+      .title_left {
+         flex: 1;
+         text-align: left;
+         .left_icon {
+            transition: .3s;
+            display: inline-block;
+            position: relative;
+         }
+         .icon_active {
+            transform: rotate(90deg) translateZ(0);
+         }
+      }
+      .title_right {}
+   }
+   .title_acitve {
+      background-color: #3a8ee6;
+      border-radius: 4px 4px 0 0;
+   }
+   .todo_list {
+      padding: 0 10px;
+      background-color: #fff;
+      border-radius: 0 0 4px 4px;
+      height: 0;
+      overflow: hidden;
+      transition: .3s;
+      .list_detail {
+         display: flex;
+         align-items: center;
+         box-sizing: border-box;
+         border-left: 4px solid #f66;
+         border-bottom: 1px solid #f66;
+         padding: 5px 10px;
+         height: 40px;
+         margin: 5px 0 10px 0;
+         border-radius: 4px 0 0 4px;
+         user-select: none;
+         .detail_checkbox {
+            height: 26px;
+            width: 26px;
+         }
+         .detail_value {
+            flex: 1;
+            text-align: left;
+            padding: 0 10px;
+            font-size: 16px;
+            line-height: 40px;
+            height: 40px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            cursor: pointer;
+         }
+         .detail_remove {
+            display: inline-block;
+            height: 26px;
+            width: 26px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: #333;
+            font-size: 20px;
+            line-height: 22px;
+            cursor: pointer;
+         }
+      }
+   }
+}
