@@ -2,10 +2,10 @@
  * @Author: Jafish 
  * @Date: 2018-01-26 13:47:16 
  * @Last Modified by: Jafish
- * @Last Modified time: 2018-01-26 13:49:46
+ * @Last Modified time: 2018-01-26 14:07:03
  * @Readme: 模糊匹配，返回成功匹配次数
  */
-const fuzzyMatch = (search = '', matchStr = '', config = {} ) => {
+const fuzzyMatch = (search = '', matchStr = '', config = {}) => {
    // search ： 要匹配的字符串
    // matchStr ： 被匹配的字符串
    // openSearchFilter ： 是否开启search非中文、英文、数字过滤，默认开启

@@ -30,5 +30,4 @@ ps: 原示例地址：https://github.com/damonare/memos
 ## 有问题反馈
 有任何问题，欢迎反馈给我，可以用以下联系方式或者提交issues
 
-* 邮件: 526800921@qq.com
 * QQ: 526800921
