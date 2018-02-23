@@ -1,5 +1,5 @@
 # React-demo-myMemo
-ps: 原示例地址：https://github.com/damonare/memos
+参考原TodoList地址：http://www.todolist.cn/
 
 一个使用react + react-router + redux的示例
 
